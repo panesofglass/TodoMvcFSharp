@@ -117,10 +117,8 @@
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
     <Content Include="Web.config" />
-    <Content Include="Global.asax" />
-    <Compile Include="Global.asax.fs">
-      <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
+    <Compile Include="TodoBackend.fs" />
+    <Compile Include="Startup.fs" />
     <None Include="packages.config" />
     <Content Include="readme.txt" />
   </ItemGroup>
